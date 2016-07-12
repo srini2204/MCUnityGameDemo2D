@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: c02b675d0887c4741ade84c5c8a02fc3
+timeCreated: 1466061103
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BlueNote_#[277,277]_0
+    21300002: BlueNote_#[277,277]_1
+    21300004: BlueNote_#[277,277]_2
+    21300006: BlueNote_#[277,277]_3
+    21300008: BlueNote_#[277,277]_4
+    21300010: BlueNote_#[277,277]_5
+    21300012: BlueNote_#[277,277]_6
+    21300014: BlueNote_#[277,277]_7
+    21300016: BlueNote_#[277,277]_8
+    21300018: BlueNote_#[277,277]_9
+    21300020: BlueNote_#[277,277]_10
+    21300022: BlueNote_#[277,277]_11
+    21300024: BlueNote_#[277,277]_12
+    21300026: BlueNote_#[277,277]_13
+    21300028: BlueNote_#[277,277]_14
+    21300030: BlueNote_#[277,277]_15
+    21300032: BlueNote_#[277,277]_16
+    21300034: BlueNote_#[277,277]_17
+    21300036: BlueNote_#[277,277]_18
+    21300038: BlueNote_#[277,277]_19
+    21300040: BlueNote_#[277,277]_20
+    21300042: BlueNote_#[277,277]_21
+    21300044: BlueNote_#[277,277]_22
+    21300046: BlueNote_#[277,277]_23
+    21300048: BlueNote_#[277,277]_24
+    21300050: BlueNote_#[277,277]_25
+    21300052: BlueNote_#[277,277]_26
+    21300054: BlueNote_#[277,277]_27
+    21300056: BlueNote_#[277,277]_28
+    21300058: BlueNote_#[277,277]_29
+    21300060: BlueNote_#[277,277]_30
+    21300062: BlueNote_#[277,277]_31
+    21300064: BlueNote_#[277,277]_32
+    21300066: BlueNote_#[277,277]_33
+    21300068: BlueNote_#[277,277]_34
+    21300070: BlueNote_#[277,277]_35
+    21300072: BlueNote_#[277,277]_36
+    21300074: BlueNote_#[277,277]_37
+    21300076: BlueNote_#[277,277]_38
+    21300078: BlueNote_#[277,277]_39
+    21300080: BlueNote_#[277,277]_40
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BlueNote_#[277,277]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1662
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1662
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_2
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1662
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_3
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1662
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_4
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1662
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_5
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1662
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1385
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1385
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_8
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1385
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_9
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1385
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_10
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1385
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_11
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1385
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1108
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_13
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1108
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_14
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 1108
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_15
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1108
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_16
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1108
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_17
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1108
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_19
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 831
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_20
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 831
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_21
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 831
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_22
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 831
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_23
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 831
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_25
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 554
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_26
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 554
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_27
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 554
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_28
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 554
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_29
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 554
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_31
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 277
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_32
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 277
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_33
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 277
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_34
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 277
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_35
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 277
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_37
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 0
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_38
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 0
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_39
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 0
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BlueNote_#[277,277]_40
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 0
+        width: 277
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

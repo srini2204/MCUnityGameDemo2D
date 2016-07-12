@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: d6d50ea4ff43c8841bf23d53d359164f
+timeCreated: 1468285833
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HomeButton_#[158,150]_0
+    21300002: HomeButton_#[158,150]_1
+    21300004: HomeButton_#[158,150]_2
+    21300006: HomeButton_#[158,150]_3
+    21300008: HomeButton_#[158,150]_4
+    21300010: HomeButton_#[158,150]_5
+    21300012: HomeButton_#[158,150]_6
+    21300014: HomeButton_#[158,150]_7
+    21300016: HomeButton_#[158,150]_8
+    21300018: HomeButton_#[158,150]_9
+    21300020: HomeButton_#[158,150]_10
+    21300022: HomeButton_#[158,150]_11
+    21300024: HomeButton_#[158,150]_12
+    21300026: HomeButton_#[158,150]_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HomeButton_#[158,150]_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 69}
+        - {x: -61, y: -55}
+        - {x: -51, y: -58}
+        - {x: 60, y: -58}
+        - {x: 60, y: 69}
+    - name: HomeButton_#[158,150]_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 600
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 69}
+        - {x: -61, y: -50}
+        - {x: -43, y: -56}
+        - {x: 60, y: -56}
+        - {x: 60, y: 69}
+    - name: HomeButton_#[158,150]_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 600
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 69}
+        - {x: -61, y: 62}
+        - {x: -61, y: -44}
+        - {x: -59, y: -52}
+        - {x: 60, y: -52}
+        - {x: 60, y: 69}
+    - name: HomeButton_#[158,150]_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 69}
+        - {x: -61, y: 62}
+        - {x: -61, y: -44}
+        - {x: -59, y: -52}
+        - {x: 60, y: -52}
+        - {x: 60, y: 69}
+    - name: HomeButton_#[158,150]_4
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 450
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 69}
+        - {x: -61, y: 62}
+        - {x: -61, y: -44}
+        - {x: -59, y: -52}
+        - {x: 60, y: -52}
+        - {x: 60, y: 69}
+    - name: HomeButton_#[158,150]_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 450
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 69}
+        - {x: -61, y: 62}
+        - {x: -61, y: -44}
+        - {x: -59, y: -52}
+        - {x: 60, y: -52}
+        - {x: 60, y: 69}
+    - name: HomeButton_#[158,150]_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 69}
+        - {x: -61, y: 62}
+        - {x: -61, y: -44}
+        - {x: -59, y: -52}
+        - {x: 60, y: -52}
+        - {x: 60, y: 69}
+    - name: HomeButton_#[158,150]_7
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 300
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57, y: 69}
+        - {x: -61, y: 65}
+        - {x: -61, y: -44}
+        - {x: -60, y: -55}
+        - {x: 60, y: -55}
+        - {x: 60, y: 69}
+    - name: HomeButton_#[158,150]_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 300
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 69}
+        - {x: -61, y: 65}
+        - {x: -61, y: -63}
+        - {x: 56, y: -63}
+        - {x: 60, y: -62}
+        - {x: 60, y: 62}
+        - {x: 53, y: 69}
+    - name: HomeButton_#[158,150]_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 69}
+        - {x: -61, y: 62}
+        - {x: -61, y: -70}
+        - {x: 60, y: -70}
+        - {x: 60, y: 63}
+        - {x: 59, y: 69}
+    - name: HomeButton_#[158,150]_10
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 150
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 69}
+        - {x: -61, y: 68}
+        - {x: -61, y: -67}
+        - {x: -58, y: -68}
+        - {x: 58, y: -68}
+        - {x: 60, y: -39}
+        - {x: 60, y: 69}
+    - name: HomeButton_#[158,150]_11
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 150
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 69}
+        - {x: -61, y: -65}
+        - {x: 50, y: -65}
+        - {x: 60, y: -48}
+        - {x: 60, y: 69}
+    - name: HomeButton_#[158,150]_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 69}
+        - {x: -61, y: -60}
+        - {x: -57, y: -63}
+        - {x: 54, y: -63}
+        - {x: 60, y: -55}
+        - {x: 60, y: 60}
+        - {x: 59, y: 69}
+    - name: HomeButton_#[158,150]_13
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 158
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61, y: 69}
+        - {x: -61, y: -56}
+        - {x: -56, y: -61}
+        - {x: 54, y: -61}
+        - {x: 60, y: -57}
+        - {x: 60, y: 69}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
