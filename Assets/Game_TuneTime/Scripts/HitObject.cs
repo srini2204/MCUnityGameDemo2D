@@ -1,78 +1,97 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class HitObject : MonoBehaviour
+namespace ToyBox.TuneTime
 {
-
-    public bool isDead = false;
-
-    private Vector3 targetPosition;
-    public int speed;
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-    public void Release(Vector3 startPosition, int speed)
+    public enum PieceType
     {
+        NORMAL,
+        ENEMY,
+    };
 
-        isDead = false;
-        this.transform.localPosition = startPosition;
-        this.speed = speed;
-
-        targetPosition = new Vector3(startPosition.x, startPosition.y + 1300, startPosition.z);
-
-        GetComponent<Animator>().SetTrigger("Moving");
-        StartCoroutine("MoveCoroutine");
-    }
-
-    IEnumerator MoveCoroutine()
+    [System.Serializable]
+    public struct PieceAttributes
     {
+        public PieceType type;
+        public int score;
+    };
 
-        while (Vector3.Distance(transform.localPosition, targetPosition) > 5)
+    public class HitObject : MonoBehaviour
+    {
+        public PieceAttributes pieceAttributes;
+        public ScoreManager scoreManager;
+
+        public bool isDead = false;
+
+        private Vector3 targetPosition;
+        public int speed;
+
+        // Use this for initialization
+        void Update()
         {
 
-            float step = speed * Time.deltaTime;
-            transform.localPosition = Vector3.MoveTowards(transform.localPosition, targetPosition, step);
+            foreach (var touch in Input.touches)
+            {
+                if (GetComponent<BoxCollider2D>().OverlapPoint(touch.position))
+                {
+                    NoteHit();
+                    Debug.Log("Touch hit");
 
-            yield return null;
+                }
+            }
+
+            if (Input.GetMouseButtonDown(0) && GetComponent<BoxCollider2D>().OverlapPoint(Input.mousePosition))
+            {
+                NoteHit();
+                Debug.Log("Mouse hit");
+            }
         }
 
-        //Reached the target
-        Reset();
+        public void Release(Vector3 startPosition, int speed)
+        {
 
-    }
+            isDead = false;
+            this.transform.localPosition = startPosition;
+            this.speed = speed;
 
-    public void Reset()
-    {
+            targetPosition = new Vector3(startPosition.x, startPosition.y + 1300, startPosition.z);
 
-        isDead = true;
+            GetComponent<Animator>().SetTrigger("Moving");
+            StartCoroutine("MoveCoroutine");
+        }
 
-    }
+        IEnumerator MoveCoroutine()
+        {
 
-    public void NoteHit()
-    {
-        StopCoroutine("MoveCoroutine");
-        GetComponent<Animator>().SetTrigger("Hit");
-        Debug.Log("NoteHit");
-    }
+            while (Vector3.Distance(transform.localPosition, targetPosition) > 5)
+            {
 
-    void OnMouseDown()
-    {
-        Debug.Log("OnMouseDown");
-        NoteHit();
-    }
+                float step = speed * Time.deltaTime;
+                transform.localPosition = Vector3.MoveTowards(transform.localPosition, targetPosition, step);
 
-    void OnMouseUpAsButton()
-    {
-        Debug.Log("MouseUpAsButton");
-    }
+                yield return null;
+            }
 
-    void OnClick ()
-    {
-        Debug.Log("OnMouseClick");
-        NoteHit();
+            //Reached the target
+            ResetNote();
+
+        }
+
+        public void ResetNote()
+        {
+
+            isDead = true;
+
+        }
+
+        public void NoteHit()
+        {
+            StopCoroutine("MoveCoroutine");
+            GetComponent<Animator>().SetTrigger("Hit");
+            scoreManager.incrementScore(pieceAttributes.score);
+            Debug.Log("NoteHit");
+        }
+
     }
 
 }

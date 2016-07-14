@@ -6,10 +6,15 @@ public class ScoreManager : MonoBehaviour
 {
 
     public bool showTimer;
-    public static int intScore;
+    public int intScore;
 
     public Text scoreBoardText;
     public Animator animator;
+
+    void Awake()
+    {
+        scoreBoardText = GetComponentInChildren<Text>();
+    }
 
     public void startTimer()
     {
@@ -47,5 +52,10 @@ public class ScoreManager : MonoBehaviour
     {
         intScore = val;
         scoreBoardText.text = intScore.ToString();
+    }
+
+    public int getScore()
+    {
+        return intScore;
     }
 }

@@ -1,26 +1,30 @@
 using UnityEngine;
 using System.Collections;
- 
-public class AutoDeactivatePool : MonoBehaviour
+
+namespace ToyBox.TuneTime
 {
-	
-	private ObjectPooling pooling;
-	
-	void Start()
-	{
-		
-        pooling = GameObject.Find("Emitter").GetComponent<ObjectPooling>();
+
+    public class AutoDeactivatePool : MonoBehaviour
+    {
+
+        private ObjectPooling pooling;
+
+        void Start()
+        {
+
+            pooling = GameObject.Find("Emitter").GetComponent<ObjectPooling>();
+
+        }
+
+        void Update()
+        {
+
+            if (GetComponent<HitObject>().isDead)
+            {
+                pooling.DevolveInstance(gameObject);
+            }
+
+        }
 
     }
-	
-	void Update()
-	{
-		
-		if(GetComponent<HitObject>().isDead)
-		{
-			pooling.DevolveInstance(gameObject);
-		}
-		
-	}
-	
 }

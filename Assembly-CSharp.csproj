@@ -47,13 +47,23 @@
   <ItemGroup>
      <Compile Include="Assets\Game_MatchMe\Scripts\CardAnimationController.cs" />
      <Compile Include="Assets\Game_MatchMe\Scripts\CardController.cs" />
+     <Compile Include="Assets\Game_MatchMe\Scripts\GameStateController.cs" />
+     <Compile Include="Assets\Game_TuneTime\Scripts\GameStateController.cs" />
      <Compile Include="Assets\Game_TuneTime\Scripts\HitObject.cs" />
      <Compile Include="Assets\Game_TuneTime\Scripts\Pool\AutoDeactivatePool.cs" />
      <Compile Include="Assets\Game_TuneTime\Scripts\Pool\ObjectPooling.cs" />
      <Compile Include="Assets\Game_TuneTime\Scripts\Pool\SpawnFromPool.cs" />
      <Compile Include="Assets\Game_TuneTime\Scripts\Spawner.cs" />
+     <Compile Include="Assets\_Global\Scripts\GameManager.cs" />
+     <Compile Include="Assets\_Global\Scripts\GameStateMachine.cs" />
+     <Compile Include="Assets\_Global\Scripts\HomeButtonController.cs" />
      <Compile Include="Assets\_Global\Scripts\MenuButton.cs" />
+     <Compile Include="Assets\_Global\Scripts\SceneNavController.cs" />
      <Compile Include="Assets\_Global\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\_Global\Scripts\StateLogic\EndStateController.cs" />
+     <Compile Include="Assets\_Global\Scripts\StateLogic\GameStateController.cs" />
+     <Compile Include="Assets\_Global\Scripts\StateLogic\IdleStateController.cs" />
+     <Compile Include="Assets\_Global\Scripts\StateLogic\StateController.cs" />
      <Compile Include="Assets\_MainMenu\Scripts\ReSkinAnimation.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
