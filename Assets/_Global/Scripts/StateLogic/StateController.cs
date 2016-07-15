@@ -11,17 +11,30 @@ namespace ToyBox
 
         public virtual void On()
         {
-            GM = GameManager.Instance;
+            if(GM == null)
+            {
+                GM = GameManager.Instance;
+            }            
         }
 
         public virtual void switchState()
         {
+            if (GM == null)
+            {
+                GM = GameManager.Instance;
+            }
+
             GM.SetGameState(nextState);
         }
 
         public virtual void Off()
         {
-            this.gameObject.SetActive(false);
+            if (GM == null)
+            {
+                GM = GameManager.Instance;
+            }          
+
+            gameObject.SetActive(false);            
         }
 
     }

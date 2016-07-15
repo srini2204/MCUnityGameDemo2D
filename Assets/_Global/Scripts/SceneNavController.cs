@@ -20,6 +20,8 @@ public class SceneNavController : MonoBehaviour
     public bool returnToLauncher;
     [SerializeField]
     private bool homeButtonVisible;
+
+    private GameManager GM;
     
     public bool HomeButtonVisible
     {
@@ -41,26 +43,13 @@ public class SceneNavController : MonoBehaviour
         homeButton.enabled = HomeButtonVisible;
     }
 
-
-    // Use this for initialization
-    void Start()
-    {
-
-        //disable home button if current stateOject is Launcher or sceneID = 0;
-        //homeButtonVisible = homeButton.activeInHierarchy;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void goToScene(GameScene sceneID)
     {
         Debug.Log("Moving to State:" + sceneID);
         if (currentScene == sceneID)
             return;
+
+        GM = GameManager.Instance;
 
         currentScene = sceneID;
 
@@ -77,6 +66,7 @@ public class SceneNavController : MonoBehaviour
             default:
                 break;
         }
+
         SceneManager.LoadScene((int)currentScene);
         Debug.Log("State Loaded : " + sceneID);
     }

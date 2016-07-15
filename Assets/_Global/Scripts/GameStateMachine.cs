@@ -18,7 +18,9 @@ namespace ToyBox
         private Dictionary<StateType, GameObject> _scenes = new Dictionary<StateType, GameObject>();
         public StateType _currentState = StateType.NullState;
         public StateType _futureState = StateType.NullState;
-        private GameManager GM;
+
+        [SerializeField]
+        public GameManager GM;
 
         private float startTime;
         public float elapsedTime;
@@ -30,19 +32,19 @@ namespace ToyBox
 
         void Awake()
         {
+            Reset();
+        }
 
+        public void Reset()
+        {
             PopulateScenes();
 
             GM = GameManager.Instance;
             GM.OnStateChange += HandleOnStateChange;
 
-            _currentState = StateType.NullState;
-            _futureState = StateType.IdleState;
-
-            GM.SetGameState(StateType.IdleState);
+            GM.SetGameState(_currentState);
 
             startTime = Time.time;
-
         }
 
         void PopulateScenes()
@@ -67,7 +69,7 @@ namespace ToyBox
         {
 
             //play off current stateOject
-            if (_currentState != StateType.NullState)
+            if (_currentState != StateType.NullState && _scenes[_currentState].GetComponent<StateController>() != null)
             {
                 _scenes[_currentState].GetComponent<StateController>().Off();
             }
@@ -82,26 +84,27 @@ namespace ToyBox
                 case StateType.IdleState:
                     Debug.Log("Changed to Idle State");
                     scoreManager.resetScore();
-                    _futureState = StateType.GameState;
+                    //_futureState = StateType.GameState;
                     break;
 
                 case StateType.GameState:
                     Debug.Log("Changed to Game State");
                     //AnalyticsManager.addInteraction("Game Started");
-                    _futureState = StateType.EndState;
+                    //_futureState = StateType.EndState;
                     break;
 
                 case StateType.EndState:
                     Debug.Log("Changed to Gameover State");
                     //AnalyticsManager.addInteraction("Game Ended");
                     //Debug.Log(ScoreManager.intScore);
-                    _futureState = StateType.IdleState;
+                    //_futureState = StateType.IdleState;
                     break;
             }
 
             resetTimer(_scenes[GM.gameState].GetComponent<StateController>().sceneDuration);
 
             _currentState = GM.gameState;
+            _futureState = _scenes[GM.gameState].GetComponent<StateController>().nextState;
 
             if (isGameStateVisible)
             {

@@ -17,7 +17,11 @@ public class GameManager
 	private static GameManager _instance = null;    
 	public event OnStateChangeHandler OnStateChange;
 	public StateType gameState { get; private set; }
-	protected GameManager() {}
+
+	protected GameManager()
+    {
+        gameState = StateType.NullState;
+    }
 	
 	/// <summary>
 	/// Gets the instance.
